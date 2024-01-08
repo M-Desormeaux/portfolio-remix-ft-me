@@ -23,8 +23,8 @@ export default function App() {
         <Meta />
         <Links />
       </head>
-      <body className="bg-purple-100 flex justify-center hero-pattern shadow-inner">
-        <div className="bg-slate-50 h-lvh w-full md:w-11/12 md:max-w-4xl drop-shadow-xl opacity-95 ">
+      <body className="flex justify-center hero-pattern shadow-inner">
+        <div className="bg-slate-200 h-lvh w-full md:w-11/12 md:max-w-4xl lg:max-w-6xl drop-shadow-2xl">
           <Outlet />
         </div>
 
