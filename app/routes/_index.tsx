@@ -18,6 +18,12 @@ export default function Index() {
     <>
       <Landing />
       <Skillset />
+      <div className=" p-5">
+        <div className="w-full rounded-md border border-yellow-600 bg-yellow-100 px-4 py-2">
+          Apologies, but I do not have any projects to show off just yet. Come
+          back later to see what I have made.
+        </div>
+      </div>
     </>
   );
 }

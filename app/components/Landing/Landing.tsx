@@ -1,6 +1,6 @@
 export const Landing = () => {
   return (
-    <div className="flex flex-col bg-slate-50 px-4 pb-10 pt-20 md:px-10">
+    <div className="flex flex-col px-4 pb-10 pt-20 md:px-10">
       <div className="flex max-w-2xl flex-col gap-5">
         <h1 className="w-fit text-5xl font-bold drop-shadow-sm md:text-6xl">
           Michael Desormeaux

@@ -6,15 +6,21 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useLocation,
 } from "@remix-run/react";
 
 import stylesheet from "~/styles.css";
+import { Navigation } from "./components/Navigation/Navigation";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },
 ];
 
 export default function App() {
+  const { pathname } = useLocation();
+
+  console.log(pathname);
+
   return (
     <html lang="en">
       <head>
@@ -24,7 +30,8 @@ export default function App() {
         <Links />
       </head>
       <body className="hero-pattern flex h-fit min-h-lvh justify-center shadow-inner">
-        <div className="h-fit min-h-lvh w-full bg-slate-200 drop-shadow-2xl md:w-11/12  md:max-w-4xl lg:max-w-6xl">
+        <div className="h-fit min-h-svh w-full bg-white drop-shadow-2xl  md:w-11/12 md:max-w-4xl lg:max-w-6xl">
+          <Navigation pathname={pathname} />
           <Outlet />
         </div>
 
