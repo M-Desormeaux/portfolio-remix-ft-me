@@ -30,7 +30,7 @@ export default function App() {
         <Links />
       </head>
       <body className="hero-pattern flex h-fit min-h-lvh justify-center shadow-inner">
-        <div className="h-fit min-h-svh w-full bg-white drop-shadow-2xl  md:w-11/12 md:max-w-4xl lg:max-w-6xl">
+        <div className="h-fit min-h-lvh w-full bg-white drop-shadow-2xl  md:w-11/12 md:max-w-4xl lg:max-w-6xl">
           <Navigation pathname={pathname} />
           <Outlet />
         </div>
