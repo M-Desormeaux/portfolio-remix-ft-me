@@ -39,14 +39,9 @@ export default function Index() {
               aid assessment. It is primarily imitating use by an administrator
               at this time.
             </p>
-
-            {/* <div className="w-full rounded-md border border-yellow-300 bg-yellow-50 px-4 py-2 text-sm">
-              This project is actively being improved.
-            </div> */}
           </a>
         </div>
       </div>
-      <footer className="h-16"></footer>
     </>
   );
 }

@@ -25,12 +25,20 @@ export default function Index() {
           </div>
           <div className="flex flex-wrap gap-1">
             <span>Primary Tech Stack:</span>
-            <span className="flex flex-wrap gap-1 *:rounded *:bg-indigo-50 *:px-1">
-              <span>React,</span>
-              <span>Remix,</span>
-              <span>Tailwind,</span>
-              <span>D3js</span>
-            </span>
+            <ul className="flex flex-wrap gap-1">
+              <li>
+                <span className="rounded bg-indigo-50 px-1">React</span>
+              </li>
+              <li>
+                <span className="rounded bg-indigo-50 px-1">Remix</span>
+              </li>
+              <li>
+                <span className="rounded bg-indigo-50 px-1">Tailwind</span>
+              </li>
+              <li>
+                <span className="rounded bg-indigo-50 px-1">D3js</span>
+              </li>
+            </ul>
           </div>
         </div>
         <ul

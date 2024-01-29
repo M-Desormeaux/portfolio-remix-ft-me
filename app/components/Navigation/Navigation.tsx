@@ -1,3 +1,5 @@
+import { Link } from "@remix-run/react";
+
 const PAGE_LINKS = [
   { url: "/", label: "Home" },
   { url: "/resume", label: "Resume" },
@@ -38,13 +40,13 @@ const PageLinks = ({ pathname, links }: PageLinksArgTypes) => {
         if (link.url === pathname) return null;
 
         return (
-          <a
+          <Link
             className="p-4 text-center underline underline-offset-4 drop-shadow-md transition-all hover:font-bold hover:underline-offset-2"
             key={index}
-            href={link.url}
+            to={link.url}
           >
             {link.label}
-          </a>
+          </Link>
         );
       })}
     </div>
