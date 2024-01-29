@@ -18,12 +18,35 @@ export default function Index() {
     <>
       <Landing />
       <Skillset />
-      <div className=" p-5">
-        <div className="w-full rounded-md border border-yellow-600 bg-yellow-100 px-4 py-2">
-          Apologies, but I do not have any projects to show off just yet. Come
-          back later to see what I have made.
+      <div className="flex flex-col items-center gap-4 p-5">
+        <h2 className="text-3xl font-bold md:text-4xl">Projects</h2>
+        <div className="flex flex-col gap-2">
+          <a
+            href="https://classroom-dashboard.mikedez.com"
+            target="_blank"
+            rel="noreferrer"
+            className="group/ flex flex-col gap-2 rounded-md border border-slate-100 bg-slate-100 p-2 drop-shadow-md hover:border-slate-200 hover:bg-slate-200 active:drop-shadow-sm"
+          >
+            <div className="flex items-center gap-3">
+              <h3 className="text-lg font-semibold underline">
+                Classroom Dashboard
+              </h3>
+              <span className="text-sm">Active Project</span>
+            </div>
+            <p>
+              Classroom Dashboard is a Remix application with the focus of
+              providing a suggested solution to grade management and classroom
+              aid assessment. It is primarily imitating use by an administrator
+              at this time.
+            </p>
+
+            {/* <div className="w-full rounded-md border border-yellow-300 bg-yellow-50 px-4 py-2 text-sm">
+              This project is actively being improved.
+            </div> */}
+          </a>
         </div>
       </div>
+      <footer className="h-16"></footer>
     </>
   );
 }

@@ -38,22 +38,20 @@ export default function Index() {
         *: flex list-inside list-disc flex-col gap-2 py-2 *:px-5"
         >
           <li>
-            Delivers consistent feature work over 2-week sprints in a scrum
-            environment in like with product strategy.
+            Led initiative to improve API configuration and reduce technical
+            limitations by migrating to Axios and helping break down existing
+            APIs into groups for collaborative improvement.
           </li>
-          <li>
-            Discovered issues and Lead initiative to improve API configuration
-            to keep up with future improvements.
-          </li>
-          <li>Devloped simple charts using D3 and React.</li>
           <li>
             Contributed significantly (30%) to accessibility improvements for
-            screen readers.
+            screen readers by improving the codebase to include more semantic
+            HTML and using aria based improvements where previous was
+            non-semantic html.
           </li>
           <li>
-            Contributed significantly (22%) to a complex feature enhancement,
-            delivering several key components and influencing the approach the
-            team took to complete the work.
+            Contributed significantly (22%) to a complex network management
+            feature enhancement, delivering several key results including
+            components and services to improve access to rollback functionality.
           </li>
         </ul>
 
