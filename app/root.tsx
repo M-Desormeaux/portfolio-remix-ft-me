@@ -40,6 +40,7 @@ export default function App() {
               to="https://www.linkedin.com/in/m-desormeaux/"
               className="underline"
               prefetch="intent"
+              target="_blank"
             >
               LinkedIn
             </Link>
@@ -47,6 +48,7 @@ export default function App() {
               to="https://github.com/M-Desormeaux"
               className="underline"
               prefetch="intent"
+              target="_blank"
             >
               Github
             </Link>
