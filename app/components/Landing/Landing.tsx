@@ -6,7 +6,7 @@ export const Landing = () => {
           Michael Desormeaux
         </h1>
         <p className="text-xl text-slate-950 md:text-2xl">
-          Frontend Developer with 2 years of expertise in responsive and
+          Frontend Developer with 2 years of experience in responsive and
           accessible interfaces. Looking forward to building interesting
           applications.
         </p>
