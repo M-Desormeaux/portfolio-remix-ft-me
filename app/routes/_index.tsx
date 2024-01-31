@@ -8,7 +8,7 @@ export const meta: MetaFunction = () => {
     {
       name: "description",
       content:
-        "Frontend Developer with 2 years of expertise in responsive and accessible interfaces. Looking forward to building interesting applications.",
+        "Frontend Developer with 2 years of experience in responsive and accessible interfaces. Looking forward to building interesting applications.",
     },
   ];
 };
