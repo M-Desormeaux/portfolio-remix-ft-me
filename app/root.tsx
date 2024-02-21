@@ -35,7 +35,7 @@ export default function App() {
           <Navigation pathname={pathname} />
           <Outlet />
           <div className="flex flex-grow" />
-          <footer className="flex h-16 items-center gap-2 bg-slate-200 object-left-bottom px-6">
+          <footer className="flex h-16 items-center gap-2 bg-slate-200 px-6">
             <Link
               to="https://www.linkedin.com/in/m-desormeaux/"
               className="underline"
