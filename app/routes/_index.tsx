@@ -53,7 +53,7 @@ export default function Index() {
               <h3 className="text-lg font-semibold underline">
                 Figma Todo Widget
               </h3>
-              <span className="text-sm">Active Project</span>
+              <span className="text-sm">Published Project</span>
             </div>
             <p className="text-slate-800">
               This widget allows the user to add, complete, and remove tasks
