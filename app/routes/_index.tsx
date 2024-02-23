@@ -57,8 +57,8 @@ export default function Index() {
             </div>
             <p className="text-slate-800">
               This widget allows the user to add, complete, and remove tasks
-              from a checklist with a modifyable card heading. Built using Figma
-              tooling and a React-like composition using typescript.
+              from a checklist within Figma. Built using Figma tooling and a
+              React-like composition using typescript.
             </p>
           </a>
         </div>
