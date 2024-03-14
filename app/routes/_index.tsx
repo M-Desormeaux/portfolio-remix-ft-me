@@ -36,7 +36,7 @@ export default function Index() {
               <span className="text-sm">Active Project</span>
             </div>
             <p className="text-slate-800">
-              Classroom Dashboard is a Remix application with the focus of
+              Classroom Dashboard is a Next.js application with the focus of
               providing a suggested solution to small scale grade management and
               classroom aid assessment. It is primarily imitating use by an
               administrator at this time. Design is done by myself.
