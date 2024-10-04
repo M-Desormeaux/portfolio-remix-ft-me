@@ -21,7 +21,7 @@ export default function Index() {
         <div className="p-2 px-5">
           <div className="flex items-baseline gap-2">
             <h2 className="inline-block text-xl font-semibold">Comcast</h2>
-            <span>Nov 2021 - Current</span>
+            <span>Nov 2021 - May 2024</span>
           </div>
           <div className="flex flex-wrap gap-1">
             <span>Primary Tech Stack:</span>
@@ -34,9 +34,6 @@ export default function Index() {
               </li>
               <li>
                 <span className="rounded bg-indigo-50 px-1">Tailwind</span>
-              </li>
-              <li>
-                <span className="rounded bg-indigo-50 px-1">D3js</span>
               </li>
             </ul>
           </div>
