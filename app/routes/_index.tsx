@@ -23,7 +23,7 @@ export default function Index() {
       <div className="flex flex-col items-center gap-4 p-5">
         <h2 className="text-3xl font-bold md:text-4xl">Highlighted Projects</h2>
         <div className="flex flex-col gap-2">
-          <a
+{/*           <a
             href="https://classroom-dashboard.mikedez.com"
             target="_blank"
             rel="noreferrer"
@@ -41,7 +41,7 @@ export default function Index() {
               classroom aid assessment. It is primarily imitating use by an
               administrator at this time. Design is done by myself.
             </p>
-          </a>
+          </a> */}
 
           <a
             href="https://www.figma.com/community/widget/1342178141900653188"
